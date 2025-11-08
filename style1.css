@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+img {
+    width: 10%;
+}
+
+nav {
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 15px;
+}

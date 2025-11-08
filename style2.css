@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+    background-color: lightcoral;
+    height: 15vh;
+    line-height: 15vh;
+    border: 1px solid black;
+}
+
+main {
+    display: flex;
+    height: 70vh;
+    line-height: 70vh;
+}
+
+article {
+    flex: 3;
+    order: 2;
+    background-color: lightpink;
+    border: 1.5px solid black;
+}
+
+aside {
+    flex: 1;
+    background-color: rgb(209, 105, 105);
+    order: 3;
+    border: 1px solid black;
+}
+
+nav {
+    flex: 1;
+    background-color: lightsteelblue;
+    order: 1;
+    border: 1px solid black;
+}
+
+footer {
+    background-color: rgb(91, 124, 185);
+    height: 15vh;
+    line-height: 15vh;
+    border: 1px solid black;
+}
